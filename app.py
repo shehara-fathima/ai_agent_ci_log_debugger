@@ -5,8 +5,7 @@ from analyzer import run_analysis
 
 # Load from .env file
 load_dotenv()
-# gemini_api_key = os.getenv("GEMINI_API_KEY")
-gemini_api_key= "AIzaSyCQL-SMeYfe2Nkj_Na-kjXeKcItLcucfSM"
+gemini_api_key = os.getenv("GEMINI_API_KEY")
 st.set_page_config(page_title="CI Failure Analyzer", layout="centered")
 st.markdown("""
     <style>
